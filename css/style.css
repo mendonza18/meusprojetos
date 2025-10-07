@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: sans-serif
+}
+.nav{
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 24px;
+}
+.nav-list a {
+    text-decoration: none;
+    color: #a4a4a4;
+    padding: 20px;
+}
+.nav-list a :hover{
+    color: #fff;
+    transition: 0.9s;
+    font-weight: bold;
+}
+.main{
+    width: 100%;
+    background-color: #494949;
+    height: calc(100vh - 80px);
+    background-image: url("../img/programador.png");
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.main h1{
+    color: #fff;
+    font-size: 54px;
+}
+.main p{
+    font-size: 24px;
+    color: #1e96fc;
+    margin-top: 10px;
+
+}
+.call-to-action{
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    padding: 14px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.call-to-action :hover{
+    transform: scale(1-1);
+    transition: 0.3s
+}
